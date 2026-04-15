@@ -1,0 +1,441 @@
+/* ═══════════════════════════════════════════════════════
+   CLASSFLOW — THEMES
+   25 built-in themes via CSS custom properties
+═══════════════════════════════════════════════════════ */
+
+/* ── DEFAULT: Dark Slate ── */
+.theme-dark-default {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --surface-alt: #22263a;
+  --sidebar-bg: #13161f;
+  --border: #2a2e45;
+  --text: #e8eaf6;
+  --text-muted: #6b7299;
+  --accent: #6c8aff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(108,138,255,0.12);
+  --accent-glow: rgba(108,138,255,0.3);
+  --input-bg: #1a1d27;
+}
+
+/* ── Neon Blue ── */
+.theme-neon-blue {
+  --bg: #060b18;
+  --surface: #0d1526;
+  --surface-alt: #132036;
+  --sidebar-bg: #080f1e;
+  --border: #1c2d50;
+  --text: #cfe4ff;
+  --text-muted: #4d7aa3;
+  --accent: #00b4ff;
+  --accent-text: #000;
+  --accent-alpha: rgba(0,180,255,0.1);
+  --accent-glow: rgba(0,180,255,0.4);
+  --input-bg: #0d1526;
+}
+
+/* ── Classroom Whiteboard ── */
+.theme-whiteboard {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-alt: #f0f1f5;
+  --sidebar-bg: #ffffff;
+  --border: #e2e4ec;
+  --text: #1a1d2e;
+  --text-muted: #7c8499;
+  --accent: #4361ee;
+  --accent-text: #fff;
+  --accent-alpha: rgba(67,97,238,0.1);
+  --accent-glow: rgba(67,97,238,0.25);
+  --input-bg: #f8f9fc;
+}
+
+/* ── Retro Arcade ── */
+.theme-retro-arcade {
+  --bg: #0d0d0d;
+  --surface: #1a1a1a;
+  --surface-alt: #252525;
+  --sidebar-bg: #111111;
+  --border: #333333;
+  --text: #f0f0f0;
+  --text-muted: #777777;
+  --accent: #ff3c78;
+  --accent-text: #fff;
+  --accent-alpha: rgba(255,60,120,0.12);
+  --accent-glow: rgba(255,60,120,0.4);
+  --input-bg: #1a1a1a;
+}
+
+/* ── Minimal Gray ── */
+.theme-minimal-gray {
+  --bg: #f9fafb;
+  --surface: #ffffff;
+  --surface-alt: #f3f4f6;
+  --sidebar-bg: #f9fafb;
+  --border: #e5e7eb;
+  --text: #111827;
+  --text-muted: #9ca3af;
+  --accent: #374151;
+  --accent-text: #fff;
+  --accent-alpha: rgba(55,65,81,0.08);
+  --accent-glow: rgba(55,65,81,0.2);
+  --input-bg: #f9fafb;
+}
+
+/* ── Solarized Dark ── */
+.theme-solarized {
+  --bg: #002b36;
+  --surface: #073642;
+  --surface-alt: #0a4050;
+  --sidebar-bg: #00242f;
+  --border: #094a5a;
+  --text: #839496;
+  --text-muted: #4d7178;
+  --accent: #268bd2;
+  --accent-text: #fff;
+  --accent-alpha: rgba(38,139,210,0.12);
+  --accent-glow: rgba(38,139,210,0.3);
+  --input-bg: #073642;
+}
+
+/* ── Cyberpunk ── */
+.theme-cyberpunk {
+  --bg: #0a0010;
+  --surface: #120022;
+  --surface-alt: #1a003a;
+  --sidebar-bg: #08000d;
+  --border: #2d005a;
+  --text: #f0e6ff;
+  --text-muted: #7050a0;
+  --accent: #ff00aa;
+  --accent-text: #fff;
+  --accent-alpha: rgba(255,0,170,0.12);
+  --accent-glow: rgba(255,0,170,0.5);
+  --input-bg: #120022;
+}
+
+/* ── Soft Pastel ── */
+.theme-soft-pastel {
+  --bg: #fef6ff;
+  --surface: #ffffff;
+  --surface-alt: #fdf0ff;
+  --sidebar-bg: #fef6ff;
+  --border: #e8d8f0;
+  --text: #3d2a4a;
+  --text-muted: #9e82b8;
+  --accent: #c77dff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(199,125,255,0.12);
+  --accent-glow: rgba(199,125,255,0.3);
+  --input-bg: #fef6ff;
+}
+
+/* ── Forest Green ── */
+.theme-forest {
+  --bg: #0c1a0e;
+  --surface: #142218;
+  --surface-alt: #1a2e1f;
+  --sidebar-bg: #0a160c;
+  --border: #1f3a25;
+  --text: #d4eddb;
+  --text-muted: #5a8a65;
+  --accent: #4caf75;
+  --accent-text: #fff;
+  --accent-alpha: rgba(76,175,117,0.12);
+  --accent-glow: rgba(76,175,117,0.3);
+  --input-bg: #142218;
+}
+
+/* ── Ocean Depth ── */
+.theme-ocean {
+  --bg: #040e1a;
+  --surface: #091829;
+  --surface-alt: #0d2038;
+  --sidebar-bg: #030c16;
+  --border: #0f2d4a;
+  --text: #c8e6f5;
+  --text-muted: #3d7a9e;
+  --accent: #00c8e6;
+  --accent-text: #000;
+  --accent-alpha: rgba(0,200,230,0.1);
+  --accent-glow: rgba(0,200,230,0.4);
+  --input-bg: #091829;
+}
+
+/* ── Sunset Orange ── */
+.theme-sunset {
+  --bg: #1a0a00;
+  --surface: #2a1200;
+  --surface-alt: #361800;
+  --sidebar-bg: #160800;
+  --border: #4a2200;
+  --text: #ffe4cc;
+  --text-muted: #9a5a30;
+  --accent: #ff7700;
+  --accent-text: #fff;
+  --accent-alpha: rgba(255,119,0,0.12);
+  --accent-glow: rgba(255,119,0,0.4);
+  --input-bg: #2a1200;
+}
+
+/* ── Rose Gold ── */
+.theme-rose-gold {
+  --bg: #fdf3f3;
+  --surface: #ffffff;
+  --surface-alt: #fce8e8;
+  --sidebar-bg: #fdf3f3;
+  --border: #f0d0d0;
+  --text: #4a1a1a;
+  --text-muted: #b87a7a;
+  --accent: #d4547a;
+  --accent-text: #fff;
+  --accent-alpha: rgba(212,84,122,0.1);
+  --accent-glow: rgba(212,84,122,0.3);
+  --input-bg: #fff8f8;
+}
+
+/* ── Nord ── */
+.theme-nord {
+  --bg: #2e3440;
+  --surface: #3b4252;
+  --surface-alt: #434c5e;
+  --sidebar-bg: #2e3440;
+  --border: #4c566a;
+  --text: #eceff4;
+  --text-muted: #7b88a6;
+  --accent: #88c0d0;
+  --accent-text: #2e3440;
+  --accent-alpha: rgba(136,192,208,0.12);
+  --accent-glow: rgba(136,192,208,0.3);
+  --input-bg: #3b4252;
+}
+
+/* ── Dracula ── */
+.theme-dracula {
+  --bg: #282a36;
+  --surface: #343746;
+  --surface-alt: #3c3f55;
+  --sidebar-bg: #21222c;
+  --border: #44475a;
+  --text: #f8f8f2;
+  --text-muted: #6272a4;
+  --accent: #bd93f9;
+  --accent-text: #282a36;
+  --accent-alpha: rgba(189,147,249,0.12);
+  --accent-glow: rgba(189,147,249,0.3);
+  --input-bg: #343746;
+}
+
+/* ── Monokai ── */
+.theme-monokai {
+  --bg: #272822;
+  --surface: #32332a;
+  --surface-alt: #3e3f35;
+  --sidebar-bg: #1e1f1a;
+  --border: #49483e;
+  --text: #f8f8f2;
+  --text-muted: #75715e;
+  --accent: #a6e22e;
+  --accent-text: #272822;
+  --accent-alpha: rgba(166,226,46,0.1);
+  --accent-glow: rgba(166,226,46,0.3);
+  --input-bg: #32332a;
+}
+
+/* ── Midnight Navy ── */
+.theme-midnight-navy {
+  --bg: #07090f;
+  --surface: #0e1220;
+  --surface-alt: #151a2e;
+  --sidebar-bg: #080a14;
+  --border: #1c2444;
+  --text: #dce4ff;
+  --text-muted: #4a5880;
+  --accent: #4d8fff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(77,143,255,0.12);
+  --accent-glow: rgba(77,143,255,0.35);
+  --input-bg: #0e1220;
+}
+
+/* ── Emerald ── */
+.theme-emerald {
+  --bg: #f0faf5;
+  --surface: #ffffff;
+  --surface-alt: #e6f7ee;
+  --sidebar-bg: #f0faf5;
+  --border: #b8e8cc;
+  --text: #0a2e1a;
+  --text-muted: #5ca073;
+  --accent: #059669;
+  --accent-text: #fff;
+  --accent-alpha: rgba(5,150,105,0.1);
+  --accent-glow: rgba(5,150,105,0.25);
+  --input-bg: #f5fdf8;
+}
+
+/* ── Warm Cream ── */
+.theme-warm-cream {
+  --bg: #faf8f3;
+  --surface: #ffffff;
+  --surface-alt: #f5f0e8;
+  --sidebar-bg: #faf8f3;
+  --border: #e8ddc8;
+  --text: #2d2415;
+  --text-muted: #9e8c6e;
+  --accent: #c88c3a;
+  --accent-text: #fff;
+  --accent-alpha: rgba(200,140,58,0.1);
+  --accent-glow: rgba(200,140,58,0.25);
+  --input-bg: #fdf9f4;
+}
+
+/* ── Electric Violet ── */
+.theme-electric-violet {
+  --bg: #0d0515;
+  --surface: #160a22;
+  --surface-alt: #200e30;
+  --sidebar-bg: #0a030f;
+  --border: #2e1450;
+  --text: #ede0ff;
+  --text-muted: #6840a0;
+  --accent: #9b30ff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(155,48,255,0.12);
+  --accent-glow: rgba(155,48,255,0.45);
+  --input-bg: #160a22;
+}
+
+/* ── Hot Coral ── */
+.theme-hot-coral {
+  --bg: #fff5f5;
+  --surface: #ffffff;
+  --surface-alt: #ffecec;
+  --sidebar-bg: #fff5f5;
+  --border: #ffd0d0;
+  --text: #2d0a0a;
+  --text-muted: #cc6666;
+  --accent: #ff4444;
+  --accent-text: #fff;
+  --accent-alpha: rgba(255,68,68,0.1);
+  --accent-glow: rgba(255,68,68,0.3);
+  --input-bg: #fff8f8;
+}
+
+/* ── Slate Blue ── */
+.theme-slate-blue {
+  --bg: #1e2233;
+  --surface: #252c42;
+  --surface-alt: #2c3550;
+  --sidebar-bg: #191e2e;
+  --border: #334266;
+  --text: #e2e8ff;
+  --text-muted: #5a6a99;
+  --accent: #7b9cff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(123,156,255,0.12);
+  --accent-glow: rgba(123,156,255,0.3);
+  --input-bg: #252c42;
+}
+
+/* ── Gold Rush ── */
+.theme-gold-rush {
+  --bg: #111008;
+  --surface: #1e1c0a;
+  --surface-alt: #272510;
+  --sidebar-bg: #0d0c05;
+  --border: #3a3510;
+  --text: #fff5cc;
+  --text-muted: #806e20;
+  --accent: #f0c020;
+  --accent-text: #111008;
+  --accent-alpha: rgba(240,192,32,0.1);
+  --accent-glow: rgba(240,192,32,0.35);
+  --input-bg: #1e1c0a;
+}
+
+/* ── Arctic ── */
+.theme-arctic {
+  --bg: #f8fbff;
+  --surface: #ffffff;
+  --surface-alt: #edf3ff;
+  --sidebar-bg: #f8fbff;
+  --border: #d0e0f8;
+  --text: #0a1a30;
+  --text-muted: #6080b0;
+  --accent: #0a7aff;
+  --accent-text: #fff;
+  --accent-alpha: rgba(10,122,255,0.1);
+  --accent-glow: rgba(10,122,255,0.25);
+  --input-bg: #f8fbff;
+}
+
+/* ── Terminal Green ── */
+.theme-terminal {
+  --bg: #0a0f0a;
+  --surface: #0f160f;
+  --surface-alt: #141e14;
+  --sidebar-bg: #080c08;
+  --border: #1a2e1a;
+  --text: #88ff88;
+  --text-muted: #336633;
+  --accent: #00ff44;
+  --accent-text: #000;
+  --accent-alpha: rgba(0,255,68,0.08);
+  --accent-glow: rgba(0,255,68,0.4);
+  --input-bg: #0f160f;
+}
+
+/* ── Coffee ── */
+.theme-coffee {
+  --bg: #1a1208;
+  --surface: #261c0e;
+  --surface-alt: #302414;
+  --sidebar-bg: #140e05;
+  --border: #40300a;
+  --text: #f5e8d0;
+  --text-muted: #9a7a50;
+  --accent: #d4862a;
+  --accent-text: #fff;
+  --accent-alpha: rgba(212,134,42,0.12);
+  --accent-glow: rgba(212,134,42,0.35);
+  --input-bg: #261c0e;
+}
+
+/* --- Custom Logo Implementation --- */
+.app-logo-graphic {
+  width: 48px;
+  height: 48px;
+  background-color: var(--accent); /* Automatically uses theme accent color */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* Default Logo (For Dark Themes) */
+.app-logo-graphic {
+  -webkit-mask-image: url('../assets/logo-light.svg');
+  mask-image: url('../assets/logo-light.svg');
+}
+
+/* Sizing variations to match your existing layout */
+.app-logo-graphic.small { width: 32px; height: 32px; }
+.app-logo-graphic.micro { width: 24px; height: 24px; }
+
+/* Switch to Dark Logo for Light Themes */
+.theme-whiteboard .app-logo-graphic,
+.theme-minimal-gray .app-logo-graphic,
+.theme-soft-pastel .app-logo-graphic,
+.theme-rose-gold .app-logo-graphic,
+.theme-emerald .app-logo-graphic,
+.theme-warm-cream .app-logo-graphic,
+.theme-arctic .app-logo-graphic,
+.theme-hot-coral .app-logo-graphic {
+  -webkit-mask-image: url('../assets/logo-dark.svg');
+  mask-image: url('../assets/logo-dark.svg');
+  background-color: var(--text); /* Use text color for better contrast on light backgrounds */
+}
