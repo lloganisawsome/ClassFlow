@@ -311,6 +311,24 @@ html, body {
   font-weight: 600;
 }
 .nav-item.logout:hover { color: #ff6b6b; background: rgba(255,107,107,0.08); }
+/* Compact Phantom Labs link in the ClassFlow sidebar */
+.phantom-sidebar-link {
+  color: var(--accent);
+  background: rgba(57, 255, 20, 0.055);
+  border: 1px solid rgba(57, 255, 20, 0.12);
+  font-size: 0.78rem;
+}
+.phantom-sidebar-link:hover {
+  color: #39ff14;
+  background: rgba(57, 255, 20, 0.1);
+}
+.phantom-sidebar-link span {
+  white-space: nowrap;
+}
+.sidebar.collapsed .phantom-sidebar-link span {
+  opacity: 0;
+  pointer-events: none;
+}
 
 .sidebar-bottom {
   padding: 8px;

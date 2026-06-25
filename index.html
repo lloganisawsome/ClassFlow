@@ -162,6 +162,12 @@
       </nav>
 
       <div class="sidebar-bottom">
+        <!-- ===== PHANTOM LABS GROUP FOOTER ===== -->
+        <a class="nav-item phantom-sidebar-link" href="https://phantomlabs.snproductions.us" target="_blank" rel="noopener noreferrer" title="Part of Phantom Labs Group">
+          <svg width="20" height="20" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle cx="50" cy="50" r="42" stroke="currentColor" stroke-width="8" opacity=".55"/><circle cx="50" cy="50" r="23" fill="currentColor" opacity=".16"/><circle cx="50" cy="50" r="9" fill="currentColor" opacity=".75"/></svg>
+          <span>Phantom Labs</span>
+        </a>
+        <!-- ===== END PHANTOM LABS GROUP FOOTER ===== -->
         <button class="nav-item" id="settings-btn" title="Settings">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
           <span>Settings</span>
@@ -271,53 +277,13 @@
   <script type="module" src="js/views/camera.js"></script>
   <script type="module" src="js/views/controller.js"></script>
   <script type="module" src="js/views/settings.js"></script>
-
-<!-- ===== PHANTOM LABS GROUP FOOTER ===== -->
-<div style="
-  background: #000;
-  border-top: 1px solid rgba(57,255,20,.08);
-  padding: 1.6rem 1.5rem;
-  text-align: center;
-  font-family: 'DM Sans', 'Rajdhani', sans-serif;
-">
-  <div style="
-    display: inline-flex;
-    align-items: center;
-    gap: .55rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  ">
-    <span style="
-      font-family: 'Rajdhani', sans-serif;
-      font-size: .68rem;
-      font-weight: 600;
-      letter-spacing: .14em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,.22);
-    ">This website is a part of</span>
-    <a href="https://phantomlabs.snproductions.us" target="_blank" rel="noopener noreferrer" style="
-      display: inline-flex;
-      align-items: center;
-      gap: .45rem;
-      text-decoration: none;
-      font-family: 'Rajdhani', sans-serif;
-      font-size: .72rem;
-      font-weight: 700;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: #39ff14;
-      transition: text-shadow .3s, color .3s;
-    " onmouseover="this.style.textShadow='0 0 12px rgba(57,255,20,.6)'" onmouseout="this.style.textShadow='none'">
-      <svg width="14" height="14" viewBox="0 0 100 100" fill="none" style="flex-shrink:0;">
-        <circle cx="50" cy="50" r="45" fill="none" stroke="#39ff14" stroke-width="6" opacity=".5"/>
-        <circle cx="50" cy="50" r="28" fill="#39ff14" opacity=".18"/>
-        <circle cx="50" cy="50" r="12" fill="#39ff14" opacity=".5"/>
-      </svg>
-      Phantom Labs Group
-      <span style="font-size:.6rem;opacity:.45;">↗</span>
-    </a>
-  </div>
-</div>
-<!-- ===== END PHANTOM LABS GROUP FOOTER ===== -->
-</body>
+<!-- Phantom Labs Analytics -->
+<script>
+  window.PL_ANALYTICS_SITE = {
+    siteId: "classflow",
+    siteName: "ClassFlow"
+  };
+</script>
+<script type="module" src="pl-analytics.js"></script>
+<!-- End Phantom Labs Analytics --></body>
 </html>
